@@ -1,0 +1,71 @@
+body.theme-dark {
+  --background-primary: #151515;
+  --background-secondary: #1c1c1c;
+  --background-tertiary: #202020;
+
+  --text-normal: #e8e8d3;
+  --text-faint: #888888;
+  --text-accent: #ffffff;
+  --text-muted: #808080;
+
+  --interactive-accent: #ffffff;
+  --interactive-accent-hover: #ffd59e;
+
+  --accent-color: #ffffff;
+
+  --code-background: #1a1a1a;
+  --code-normal: #e8e8d3;
+  --code-comment: #888888;
+  --code-keyword: #8197bf;
+  --code-string: #99ad6a;
+  --code-number: #cf6a4c;
+  --code-function: #fad07a;
+  --code-operator: #c6b6ee;
+}
+
+/* Editor Tokens */
+.cm-s-obsidian span.cm-keyword {
+  color: var(--code-keyword);
+}
+
+.cm-s-obsidian span.cm-string {
+  color: var(--code-string);
+}
+
+.cm-s-obsidian span.cm-number {
+  color: var(--code-number);
+}
+
+.cm-s-obsidian span.cm-def {
+  color: var(--code-function);
+}
+
+.cm-s-obsidian span.cm-operator {
+  color: var(--code-operator);
+}
+
+.cm-s-obsidian span.cm-comment {
+  color: var(--code-comment);
+}
+
+/* Links */
+.markdown-rendered a {
+  color: #8fbfdc;
+}
+
+.cm-s-obsidian span.cm-link {
+  color: #8fbfdc;
+}
+
+/* Headings */
+.markdown-rendered h1,
+.markdown-rendered h2,
+.markdown-rendered h3 {
+  color: #fad07a;
+}
+
+/* Highlights */
+.markdown-rendered mark {
+  background-color: #453a00;
+  color: #ffd75f;
+}
